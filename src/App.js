@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
+// import Aboutus from "./Components/Aboutus";
 
 function App() {
   // JSX
@@ -13,7 +14,7 @@ function App() {
       
       <div className="container my-3">
       <TextForm heading="Enter the text to analysis below"/>
-      
+      {/* <Aboutus/> */}
       </div>
 
      
